@@ -533,9 +533,9 @@ a {
     img {
       width: 200px;
       position: absolute;
-      right: -55px;
-      transform: rotate(-44deg);
-      opacity: .25;
+      right: -50px;
+      transform: rotate(-100deg);
+      opacity: 0.25;
       z-index: -1;
       @media (max-width: 768px) {
         right: initial;
