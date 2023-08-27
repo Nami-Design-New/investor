@@ -139,10 +139,13 @@ a {
   padding: 6px 12px;
   color: #fff;
   font-size: 14px;
-  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
 }
 .header .btn i {
-  font-size: 16px;
+  font-size: 18px;
 }
 .header .toogler {
   display: none;
@@ -207,8 +210,13 @@ a {
   position: relative;
   height: 450px;
 }
+@media (max-width: 768px) {
+  .content .hero-section .mockup {
+    margin-top: 60px;
+  }
+}
 .content .hero-section .mockup img {
-  max-height: 100%;
+  max-width: 100%;
   position: absolute;
   transform: rotate(15deg);
 }
@@ -227,9 +235,6 @@ a {
   z-index: 9;
 }
 @media (max-width: 768px) {
-  .content .hero-section .mockup img {
-    max-height: 80%;
-  }
   .content .hero-section .mockup img:nth-child(1) {
     right: 10%;
     z-index: 999;
@@ -247,7 +252,7 @@ a {
 }
 @media (max-width: 576px) {
   .content .hero-section .mockup img {
-    max-height: 60%;
+    max-height: 72%;
   }
 }
 .content .hero-section .content-wrap {
@@ -257,8 +262,8 @@ a {
   gap: 24px;
 }
 .content .hero-section .content-wrap h1 {
-  font-size: 28px;
-  line-height: 52px;
+  font-size: 26px;
+  line-height: 48px;
   color: #000000;
   font-weight: 600;
 }
@@ -275,7 +280,12 @@ a {
   gap: 16px;
 }
 .content .statics {
-  margin-top: 48px;
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .content .statics {
+    margin-top: 0;
+  }
 }
 .content .statics .statics-card {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
@@ -462,6 +472,7 @@ a {
   margin-bottom: 48px;
 }
 .content .features .feature-card {
+  height: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
   background: #fff;
   padding: 24px 16px;
@@ -518,7 +529,6 @@ a {
   height: 85%;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 @media (max-width: 768px) {
   .content .faq .img {
@@ -529,8 +539,7 @@ a {
   }
 }
 .content .faq .img img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center;
@@ -637,10 +646,17 @@ a {
   width: 100%;
   padding: 30px 0;
   height: 400px;
-  background: #c5ead9;
-  background-image: url("../images/download-app.svg");
+  background: #f4fbf3;
   background-size: contain;
   overflow: hidden;
+}
+@media (max-width: 768px) {
+  .content .download-app {
+    height: 650px;
+  }
+  .content .download-app .app-imgs {
+    margin-top: 60px;
+  }
 }
 .content .download-app .container {
   height: 100%;
@@ -648,19 +664,11 @@ a {
 .content .download-app .container .row {
   height: 100%;
 }
-@media (max-width: 768px) {
-  .content .download-app .container .row .app-imgs {
-    display: none;
-  }
-}
 .content .download-app .container .row .img {
   height: 100%;
   display: flex;
   justify-content: center;
   position: relative;
-}
-.content .download-app .container .row .img img {
-  height: 140%;
 }
 .content .download-app .container .row .img img:nth-child(1) {
   position: absolute;
@@ -671,19 +679,19 @@ a {
 .content .download-app .container .row .img img:nth-child(2) {
   z-index: 0;
   position: absolute;
-  left: 30px;
+  left: 10px;
   top: 60px;
 }
 .content .download-app .container .row .img img:nth-child(3) {
   z-index: 0;
   position: absolute;
-  right: 30px;
+  right: 10px;
   top: 60px;
 }
 .content .download-app .container .row h3 {
   color: #000000;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 42px;
   line-height: 72px;
   margin-bottom: 12px;
 }
@@ -716,7 +724,7 @@ footer .footer {
   display: flex;
 }
 footer .footer .logo img {
-  max-height: 60px;
+  max-height: 26px;
 }
 footer .footer .social {
   display: flex;
