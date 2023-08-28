@@ -172,7 +172,7 @@ a {
   left: 0;
   top: 0;
   z-index: -1;
-  background: #f4fbf3;
+  background: #f1f7fa;
   -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 40%, 100% 0%);
           clip-path: polygon(0% 0%, 0% 100%, 100% 40%, 100% 0%);
 }
@@ -269,7 +269,7 @@ a {
 }
 .content .hero-section .content-wrap h1 span {
   line-height: inherit;
-  color: #3e8cab;
+  color: #e39845;
 }
 .content .hero-section .content-wrap p {
   color: #777777;
@@ -340,7 +340,7 @@ a {
   padding-left: 30px;
 }
 .content .how .taps-wrapper .step .icon {
-  background: #f4fbf3;
+  background: #f1f7fa;
   width: 70px;
   height: 60px;
   border-radius: 14px;
@@ -561,8 +561,8 @@ a {
 @media (max-width: 768px) {
   .content .contact-us img {
     right: initial;
-    left: -50px;
-    transform: rotate(44deg);
+    left: -18px;
+    transform: rotate(-5deg);
   }
 }
 .content .contact-us .title {
@@ -646,7 +646,7 @@ a {
   width: 100%;
   padding: 30px 0;
   height: 400px;
-  background: #f4fbf3;
+  background: #f1f7fa;
   background-size: contain;
   overflow: hidden;
 }

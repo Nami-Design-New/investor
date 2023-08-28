@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700&display=swap');
 $main-color: #3e8cab;
 $second-color: #e39845;
-$main30-color: #f4fbf3;
+$main30-color: #f1f7fa;
 $text-color: #777777;
 $black-color: #000000;
 $white-color: #fff;
@@ -273,7 +273,7 @@ a {
         color: $black-color;
         span {
           line-height: inherit;
-          color: $main-color;
+          color: $second-color;
         }
         font-weight: 600;
       }
@@ -539,8 +539,8 @@ a {
       z-index: -1;
       @media (max-width: 768px) {
         right: initial;
-        left: -50px;
-        transform: rotate(44deg);
+        left: -18px;
+        transform: rotate(-5deg);
       }
     }
     .title {
